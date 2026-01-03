@@ -8,8 +8,8 @@ from pybit.unified_trading import HTTP
 import os
 
 # Konfigurera Bybit API från environment variables
-API_KEY = os.getenv('BYBIT_API_KEY')
-API_SECRET = os.getenv('BYBIT_API_SECRET')
+API_KEY = os.getenv('P9vDOkvnlLhJXFYkBS')
+API_SECRET = os.getenv('lADMmIzOWGdbDNfeGqs4sircrbaj846grlXg')
 TESTNET = True  # Ändra till False för live
 
 session = HTTP(
